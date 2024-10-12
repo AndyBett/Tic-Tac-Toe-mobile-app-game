@@ -136,7 +136,7 @@ class _TicTacToePageState extends State<TicTacToePage> {
                 child: Text(
                   _board[index],
                   style: TextStyle(
-                    fontSize: screenWidth * 0.12, // Adjust font size
+                    fontSize: screenWidth * 0.12, 
                     fontWeight: FontWeight.bold,
                     color: _board[index] == 'X'
                         ? Colors.blue
